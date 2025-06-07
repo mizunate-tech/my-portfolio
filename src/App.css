@@ -1,91 +1,98 @@
 :root {
-    --background-color: #f8fafc;
-    --btn-color: #3b82f6;
-    --btn-text-color: #ffffff;
-    --project-card-bg: #ffffff;
-    --text-color: #1e293b;
-    --form-text-color: #475569;
-    --footer-text-color: #64748b;
+  --background-color: #f8fafc;
+  --btn-color: #3b82f6;
+  --btn-text-color: #ffffff;
+  --project-card-bg: #ffffff;
+  --text-color: #1e293b;
+  --form-text-color: #475569;
+  --footer-text-color: #64748b;
 }
 
-[data-theme='dark'] {
-    --background-color: #1a202c; 
-    --btn-color: #ffffff; 
-    --btn-text-color: #000000; 
-    --project-card-bg: #2d3748; 
-    --text-color: #e2e8f0; 
-    --form-text-color: #e2e8f0; 
-    --footer-text-color: #a0aec0;
+[data-theme="dark"] {
+  --background-color: #1a202c;
+  --btn-color: #ffffff;
+  --btn-text-color: #000000;
+  --project-card-bg: #2d3748;
+  --text-color: #e2e8f0;
+  --form-text-color: #e2e8f0;
+  --footer-text-color: #a0aec0;
 }
 
 body {
-    background-color: var(--background-color);
-     display: flex;
-    justify-content: center;
-    margin: 0 auto 60px;
+  background-color: var(--background-color);
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 60px;
 }
 
 #root {
-    display: flex;
-    flex-direction: column;
-    gap: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
 }
 
-h1,h2,h3,p {
-    color: var(--text-color);
-    margin: 0;
-    padding: 0;
+h1,
+h2,
+h3,
+p {
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
 }
 
-h2,h3,p {
-    font-family: 'Roboto Mono' , monospace;
+h2,
+h3,
+p {
+  font-family: "Roboto Mono", monospace;
 }
 
-h1,h2{
-    text-transform: uppercase;
+h1,
+h2 {
+  text-transform: uppercase;
 }
 
-h2,h3{
-    font-size: 20px;
+h2,
+h3 {
+  font-size: 20px;
 }
 
-h1{
-    font-family: 'Rubik',sans-serif;
-    font-size: 32px;
+h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 32px;
 }
 
-p{
-    font-size: 16px;
-    font-weight: 300;
+p {
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .sectionTitle {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
-@media (width >= 800px)
-{
-    #root {
-        gap: 100px ;
-    }
-    h1{
-        font-size: 40px;
-    }
-    h2,h3{
-        font-size: 24px;
-    }
-    p{
-        font-size: 20px;
-    }
-    .sectionTitle{
-        margin-bottom: 60px;
-    }
+@media (width >= 800px) {
+  #root {
+    gap: 100px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  h2,
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 20px;
+  }
+  .sectionTitle {
+    margin-bottom: 60px;
+  }
 
-      @media (width >= 1400px) {
+  @media (width >= 1400px) {
     #root {
       gap: 200px;
     }
