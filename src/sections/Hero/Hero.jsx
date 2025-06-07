@@ -46,8 +46,8 @@ function Hero() {
           <img src={linkedinIcon} alt="Linkedin Icon" />
         </a>
       </span>
-      <p>
-        With a passion to become a Future Data Analyst
+      <p className={styles.description}>
+        With a passion to become a Data Analyst
       </p>
       <a href={CV} download>
         <button className="hover" >
