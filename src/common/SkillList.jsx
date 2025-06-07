@@ -1,11 +1,10 @@
-import React from 'react'
-
-function SkillList({skill}) {
+function SkillList({ src, skill }) {
   return (
-   <span>
-     <p>{skill}</p>
+    <span>
+      <img src={src} alt="Checkmark icon" />
+      <p>{skill}</p>
     </span>
-  )
+  );
 }
 
-export default SkillList
+export default SkillList;
