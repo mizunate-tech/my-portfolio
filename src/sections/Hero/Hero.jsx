@@ -36,7 +36,7 @@ function Hero() {
           <br />
           Barra
         </h1>
-        <h2>Data Analyst</h2>
+        <h2>Currently Learning Data Analysis with Pandas</h2>
         <span>
           <a href="https://twitter.com/mizunate" target="_blank">
             <img src={twitterIcon} alt="Twitter Icon" />
