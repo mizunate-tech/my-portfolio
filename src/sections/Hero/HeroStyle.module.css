@@ -2,55 +2,59 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 20px;
   text-align: center;
-  height: 100dvh;
-  min-height: 500px;
+  padding: 80px 20px;
+  min-height: calc(100dvh - 120px);
+}
 
-  .hero {
-    max-width: 200px;
-  }
+.container .hero {
+  max-width: 200px;
+  width: 100%;
+  height: auto;
+}
 
-  span {
-    display: flex;
-    gap: 25px;
-    justify-content: center;
+.container span {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+}
 
-    a {
-      margin: 0;
+.container span a {
+  margin: 0;
+}
 
-      img {
-        width: 30px;
-      }
-    }
-  }
+.container span a img {
+  width: 30px;
+  height: auto;
+}
 
-  a {
-    width: fit-content;
-    align-self: center;
-  }
+.container a {
+  width: fit-content;
+  align-self: center;
+}
 
-  button {
-    background-color: var(--btn-color);
-    color: var(--btn-text-color);
-    border: none;
-    border-radius: 20px;
-    width: 126px;
-    height: 50px;
-    font-size: 20px;
-    font-weight: bold;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-    transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
-  }
+.container button {
+  background-color: var(--btn-color);
+  color: var(--btn-text-color);
+  border: none;
+  border-radius: 20px;
+  width: 126px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  transition: box-shadow 200ms ease-in-out, transform 200ms ease-in-out;
+}
 
-  button:hover {
-    transform: scale(1.05);
-  }
+.container button:hover {
+  transform: scale(1.05);
+}
 
-  button:active {
-    transform: translateY(2px);
-    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
-  }
+.container button:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .colorModeContainer {
@@ -61,6 +65,8 @@
   position: absolute;
   right: 0;
   width: 25px;
+  height: auto;
+  top: 5px;
 }
 
 .colorMode:hover {
@@ -68,7 +74,8 @@
 }
 
 .description {
-  max-width: 24ch;
+  max-width: 80%;
+  margin: 0 auto;
 }
 
 .info {
@@ -80,21 +87,33 @@
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;
-    align-items: center;
     justify-content: space-evenly;
+    padding: 100px 50px;
+  }
 
-    .hero {
-      max-width: 350px;
-      width: 350px;
-    }
+  .container .hero {
+    max-width: 350px;
+    width: 100%;
+  }
+
+  .description {
+    max-width: 40ch;
+  }
+
+  .info {
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  .container h1,
+  .container h2 {
+    text-align: left;
   }
 }
 
 @media (width >= 1400px) {
-  .container {
-    .hero {
-      max-width: 400px;
-      width: 400px;
-    }
+  .container .hero {
+    max-width: 400px;
+    width: 100%;
   }
 }

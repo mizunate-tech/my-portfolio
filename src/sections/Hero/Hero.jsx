@@ -36,7 +36,7 @@ function Hero() {
           <br />
           Barra
         </h1>
-        <h2>Currently Learning Data Analysis with Pandas</h2>
+        <h2>Aspiring Data Analyst</h2>
         <span>
           <a href="https://twitter.com/mizunate" target="_blank">
             <img src={twitterIcon} alt="Twitter Icon" />
@@ -52,7 +52,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          With a passion to become a Data Analyst
+          I am a recent graduate poised to launch my career in Data Analytics
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>

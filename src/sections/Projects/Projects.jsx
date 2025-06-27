@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../Projects/ProjectStyles.module.css";
-import viberr from "../../assets/viberr.png";
+import datawarehouse from "../../assets/data-warehouse.png";
 import freshBurger from "../../assets/fresh-burger.png";
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
@@ -10,16 +10,10 @@ function Projects() {
       {/* Projects Section*/}
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com"
-          h3="Viberr"
-          p="Streaming App"
-        />
-        <ProjectCard
-          src={freshBurger}
-          link="https://github.com"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={datawarehouse}
+          link="https://github.com/mizunate-tech/sql-data-warehouse-project.git"
+          h3="Data Warehouse and Analytics"
+          p=" Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making."
         />
       </div>
     </section>

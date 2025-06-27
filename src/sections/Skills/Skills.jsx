@@ -19,6 +19,13 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Python" />
       </div>
       <hr />
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Html" />
+        <SkillList src={checkMarkIcon} skill="Css" />
+        <SkillList src={checkMarkIcon} skill="Javascript" />
+        <SkillList src={checkMarkIcon} skill="React" />
+      </div>
+      <hr />
     </section>
   );
 }
