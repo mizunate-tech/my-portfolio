@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "../Projects/ProjectStyles.module.css";
 import datawarehouse from "../../assets/data-warehouse.png";
-import sql_eda from "../../assets/sql-eda.png";
+import sql_eda_icon from "../../assets/sql-eda.png";
 import ProjectCard from "../../common/ProjectCard";
 function Projects() {
   return (
@@ -16,7 +16,7 @@ function Projects() {
           p="Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making."
         />
         <ProjectCard
-          src={sql_eda}
+          src={sql_eda_icon}
           link="https://github.com/mizunate-tech/sql-data-warehouse-project.git"
           h3="SQL-Data-Analytics"
           p="A comprehensive collection of SQL scripts for data exploration, analytics, and reporting. "
