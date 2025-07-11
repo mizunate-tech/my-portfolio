@@ -20,11 +20,31 @@ function Skills() {
         <SkillList src={checkMarkIcon} skill="Python" />
       </div>
       <hr />
+      <h2>Programming</h2>
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Html" />
-        <SkillList src={checkMarkIcon} skill="Css" />
+        <SkillList src={checkMarkIcon} skill="C#" />
+        <SkillList src={checkMarkIcon} skill=".NET Framework" />
         <SkillList src={checkMarkIcon} skill="Javascript" />
-        <SkillList src={checkMarkIcon} skill="React" />
+      </div>
+      <hr />
+      <h2>Database Management</h2>
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="SQL Server" />
+      </div>
+      <hr />
+      <h2>Software & Tools</h2>
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Microsoft Office#" />
+        <SkillList src={checkMarkIcon} skill="GitHub" />
+        <SkillList src={checkMarkIcon} skill="Notion" />
+      </div>
+      <hr />
+      <h2>Soft Skills</h2>
+      <div className={styles.skillList}>
+        <SkillList src={checkMarkIcon} skill="Attention to detail#" />
+        <SkillList src={checkMarkIcon} skill="Problem-solving" />
+        <SkillList src={checkMarkIcon} skill="Time management" />
+        <SkillList src={checkMarkIcon} skill="Communication" />
       </div>
       <hr />
     </section>
