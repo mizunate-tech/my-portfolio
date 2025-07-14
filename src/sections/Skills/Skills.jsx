@@ -34,14 +34,14 @@ function Skills() {
       <hr />
       <h2>Software & Tools</h2>
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Microsoft Office#" />
+        <SkillList src={checkMarkIcon} skill="Microsoft Office" />
         <SkillList src={checkMarkIcon} skill="GitHub" />
         <SkillList src={checkMarkIcon} skill="Notion" />
       </div>
       <hr />
       <h2>Soft Skills</h2>
       <div className={styles.skillList}>
-        <SkillList src={checkMarkIcon} skill="Attention to detail#" />
+        <SkillList src={checkMarkIcon} skill="Attention to detail" />
         <SkillList src={checkMarkIcon} skill="Problem-solving" />
         <SkillList src={checkMarkIcon} skill="Time management" />
         <SkillList src={checkMarkIcon} skill="Communication" />
